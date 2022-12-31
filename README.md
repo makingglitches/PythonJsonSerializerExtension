@@ -10,10 +10,13 @@ import JsonExtension
  c:JsonExtension.classbinder = JsonExtension.classbinder()
  
  -- add CLASSES only
-  c.queuethem(m)
+ 
+ c.queuethem(m)
   
  -- disentangles the structure and then...
+ 
  -- specify the classes you wnat to see first at the top in an array or leave this out altogether.
+ 
  s = c.OutputJson([priorityclass1,priorityclass2]) 
  
  #Output
