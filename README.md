@@ -1,7 +1,7 @@
 # PythonJsonSerializerExtension
-Creates a better more thorough fire and forget extension to python's json serializer for classes
-Its one direction at this point however. Merely for creating output so you can look closer at object structures while debugging.
-I have no plans to update this to do deserializing, though I could.
+
+Serializes json objects at runtime in a something a developer tinkering with an unknown library's internals can use to make sense of things.
+Could also be used to serialize objects which contain alot of references to other objects. Helps prevent recursive forever and ever problems and fixes the problem that python's json serializer has with complex objects.
 
 # Usage
 
